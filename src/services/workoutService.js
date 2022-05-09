@@ -1,5 +1,9 @@
+const workout = require("../database/workout");
+
 const getAllWorkouts = () => {
-  return;
+  const allWorkouts = workout.getAllWorkouts();
+  
+  return allWorkouts;
 }
 
 const getOneWorkout = () => {
