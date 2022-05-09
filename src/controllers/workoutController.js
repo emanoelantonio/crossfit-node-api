@@ -3,7 +3,7 @@ const getAllWorkouts = (req, res) => {
 }
 
 const getOneWorkout = (req, res) => {
-  res.send("Get one workout");
+  res.send("Get an existing workout");
 }
 
 const createNewWorkout = (req, res) => {
