@@ -9,7 +9,7 @@ router.get("/:workoutId", workoutController.getOneWorkout);
 // Criar um workout
 router.post("/", workoutController.createNewWorkout);
 // Atualizar um workout
-router.patch("/:workoutId", workoutController.updateOneOneWorkout);
+router.patch("/:workoutId", workoutController.updateOneWorkout);
 // Deletar um workout
 router.delete("/:workoutId", workoutController.deleteOneWorkout);
 
